@@ -1,0 +1,78 @@
+body {
+  background-color: #ECF4F6;
+  color: #FFB6B9;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #226B80;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #35B0AB;
+}
+
+a {
+  color: #61C0BF;
+    }
+
+a:hover {
+  text-decoration: wavy overline lime;
+  color: #226B80;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3)
+  }
+
+.container {
+    width: 530px;   /* This sets the width */
+    margin: 0 auto;
+    /*margin-top: 0  This automatically sets left/right margins */
+    background-color: #FAE3D9;
+    }
+
+.header {
+  margin: 10px 50px 20px;
+  padding: 1em;
+}
+
+.landing-picture {
+  margin-top: 15px ;
+  border: 1rem solid;
+
+  /** margin-bottom: 15px auto;*/
+}
+
+.social-links {
+  margin: 0 ;
+  /*margin-top: 50px ;*/
+  background-color: #ECF4F6;
+  /*text-align: center;*/
+  display: center;
+  /** margin-bottom: 15px auto;*/
+}
+
+#logo {
+  border-radius: 3px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.profil {
+  /*display: center;*/
+  /*margin: auto;*/
+  /*margin: 2000px 5000px 2000px;*/
+}
+
+.img-small {
+  width: 50px;
+}
